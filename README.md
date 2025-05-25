@@ -23,20 +23,20 @@ https://tsosi.org/api/
 
 ## API's structure
 
-* **entities**: it includes all the infrastructures and organizations that have contributed to them
+* **entities**: It includes all the infrastructures and organizations that have contributed to them
 
 `https://tsosi.org/api/entities/all?format=json`
 
-* **transfers**: it contains all the financial transfers that have taken place between entities
+* **transfers**: It contains all the financial transfers that have taken place between entities
 
 `https://tsosi.org/api/transfers/?format=json`
 
 
-* **currencies**: the different currencies implemented in the TSOSI app
+* **currencies**: The different currencies implemented in the TSOSI app
 
 `https://tsosi.org/api/currencies?format=api`
 
-* analytics: it contains aggregated transfers by countries and by year.
+* **analytics**: It contains aggregated transfers by country and by year
 
 `https://tsosi.org/api/analytics?format=json`
 
@@ -115,7 +115,7 @@ len(raw_transfers)
 
 ```
 
-* Metadata structure of one transfers
+* Metadata structure of one transfer
 
 
 ```json
@@ -142,7 +142,7 @@ len(raw_transfers)
 
 ```
 
-* Get all the transfers made by your organization
+* Retrieve all transfers made by your organization
 
 
 ```python
