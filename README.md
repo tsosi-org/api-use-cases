@@ -15,7 +15,7 @@ date: 2025-05-25
 https://tsosi.org/api/
 
 
-**/!\ TSOSI is in beta version**: see the the implication [tsosi.org/pages/faq#beta-version](https://tsosi.org/pages/faq#beta-version)
+**/!\ TSOSI is in beta version**: see the implications [tsosi.org/pages/faq#beta-version](https://tsosi.org/pages/faq#beta-version)
 
 
 <br />
