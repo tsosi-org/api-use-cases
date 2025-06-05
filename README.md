@@ -9,7 +9,9 @@ date: 2025-06-05
 <br />
 <br />
 
-For a short introduction, scroll down to see the two mains endpoints _entities_ and _transfers_—along with their associated metadata. After that, I have included notebooks that answer more specitic questions, such as "[What is the coverage or the ROR and Wikidata identifiers?](#what-is-the-coverage-or-the-ror-and-wikidata-identifiers)".
+For a short introduction, scroll down to see the two mains endpoints _entities_ and _transfers_—along with their associated metadata. After that, I have included notebooks that answer more specitic questions, such as "[What is the coverage or the ROR and Wikidata identifiers?](#what-is-the-coverage-of-ror-and-wikidata-identifiers-for-tsosi-entities)".
+
+
 
 
 <br />
