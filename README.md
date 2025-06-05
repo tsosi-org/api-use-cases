@@ -20,7 +20,7 @@ For a short introduction, scroll down to see the two mains endpoints _entities_ 
 https://tsosi.org/api/
 
 
-**/!\ TSOSI is in beta version**: see the the implication [tsosi.org/pages/faq#beta-version](https://tsosi.org/pages/faq#beta-version)
+**/!\ TSOSI is in beta version**: see the implications [tsosi.org/pages/faq#beta-version](https://tsosi.org/pages/faq#beta-version)
 
 
 <br />
@@ -197,10 +197,10 @@ print(json.dumps(json.loads(my_transfers[["recipient_id", "amount", "currency", 
 }
 
 ```
-
 <br />
 <br />
 
 ## What is the coverage of ROR and Wikidata identifiers for TSOSI entities?
 
 In short, Wikidata covers approximately 90 % while ROR covers about 80%. See [coverage-entities-identifiers.ipynb](coverage-entities-identifiers.ipynb)
+
