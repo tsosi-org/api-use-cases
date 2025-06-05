@@ -1,10 +1,15 @@
-# TSOSI API documentation
+# TSOSI API use cases
 
 ```
 author: Maxence Larrieu, PhD
 author_orcid: https://orcid.org/0000-0002-1834-3007
-date: 2025-05-25
+date: 2025-06-05
 ```
+
+<br />
+<br />
+
+For a short introduction, scroll down to see the two mains endpoints _entities_ and _transfers_—along with their associated metadata. After that, I have included notebooks that answer more specitic questions, such as "[What is the coverage or the ROR and Wikidata identifiers?](#what-is-the-coverage-or-the-ror-and-wikidata-identifiers)".
 
 
 <br />
@@ -31,10 +36,6 @@ https://tsosi.org/api/
 
 `https://tsosi.org/api/transfers/?format=json`
 
-
-* **currencies**: The different currencies implemented in the TSOSI app
-
-`https://tsosi.org/api/currencies?format=api`
 
 * **analytics**: It contains aggregated transfers by country and by year
 
@@ -111,7 +112,6 @@ for item in raw_entities :
 import requests, json
 raw_transfers = requests.get("https://tsosi.org/api/transfers/all?format=json").json()
 len(raw_transfers)
-# 2920
 
 ```
 
@@ -197,3 +197,10 @@ print(json.dumps(json.loads(my_transfers[["recipient_id", "amount", "currency", 
 }
 
 ```
+
+<br />
+<br />
+
+## What is the coverage of ROR and Wikidata identifiers for TSOSI entities?
+
+In short, Wikidata covers approximately 90 % while ROR covers about 80%. See [coverage-entities-identifiers.ipynb](coverage-entities-identifiers.ipynb)
