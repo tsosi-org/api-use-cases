@@ -3,13 +3,13 @@
 ```
 author: Maxence Larrieu, PhD
 author_orcid: https://orcid.org/0000-0002-1834-3007
-date: 2025-06-05
+date: 2025-07-07
 ```
 
 <br />
 <br />
 
-For a short introduction, scroll down to see the two mains endpoints _entities_ and _transfers_—along with their associated metadata. After that, I have included notebooks that answer more specitic questions, such as "[What is the coverage or the ROR and Wikidata identifiers?](#what-is-the-coverage-of-ror-and-wikidata-identifiers-for-tsosi-entities)".
+For a short introduction, scroll down to see the two mains endpoints _entities_ and _transfers_—along with their associated metadata. After that, I have included notebooks that answer more specitic questions, such as "[What is the coverage or the ROR and Wikidata identifiers?](#what-is-the-coverage-of-ror-and-wikidata-identifiers-for-tsosi-entities)" or "[What are the intermediaries included?](#what-are-the-intermediaries-such-as-library consortia-included-in-tsosi)".
 
 
 
@@ -206,3 +206,7 @@ print(json.dumps(json.loads(my_transfers[["recipient_id", "amount", "currency", 
 
 In short, Wikidata covers approximately 90 % while ROR covers about 80%. See [coverage-entities-identifiers.ipynb](coverage-entities-identifiers.ipynb)
 
+
+## What are the intermediaries, such as library consortia, included in TSOSI?
+
+See the notebook: [intermediaries-by-country-and-transfers.ipynb](intermediaries-by-country-and-transfers.ipynb)
